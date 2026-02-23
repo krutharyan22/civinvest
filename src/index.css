@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+    background-color: #3b82f633;
+    color: #3b82f6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #161618;
+    border-radius: 5px;
+    border: 2px solid #0a0a0b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #202022;
+}
